@@ -7,6 +7,8 @@ admin.autodiscover()
 urlpatterns = patterns('',
     # Example:
     # (r'^wsl/', include('wsl.foo.urls')),
+    (r'^$', 'wsl.home.views.index'),
+    (r'^programacao/', include('wsl.programacao.urls')),
 
     # Uncomment the admin/doc line below and add 'django.contrib.admindocs' 
     # to INSTALLED_APPS to enable admin documentation:
