@@ -1,3 +1,27 @@
-<html>
-	<h1>#WSL</h1>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+	<div class="mini-curso">
+		<div class="foto">
+			<img src="/static/img/pessoa/astm.jpg" />
+		</div>
+		<div class="dados">
+			<p class="dia"> 07 </p>
+			<p class="mes"> março </p>
+		</div>
+		<div class="mc">
+			<h2>Mini-curso de Linux</h2>
+			<p class="mc-descricao">
+				O mini-curso de linux dará uma visào geral sobre o sistema operacinal, ferramentas usadas para desenvolvimento e backup, uma visão geral sobre as distribuições disponíveis gratuitamente, virtualização, e muito mais...
+			</p>
+			<p class="mc-palestrante">
+				Palestrante: Adriano Melo, Angelo Brito
+			</p>
+		</div>
+		<div class="mc-btn">
+			<div class="inscritos"> inscritos </div>
+			<div class="inscritos"> comentar </div>
+			<div class="inscritos"> EU VOU! </div>
+		</div>
+	</div>
+{% endblock %}
