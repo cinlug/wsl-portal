@@ -5,7 +5,7 @@
 }
 .mini-curso {
 	width: 800px;
-	height: 150px;
+	height: 250px;
 	margin: 0px auto;
 }
 .mini-curso .foto, .mini-curso .data, .mini-curso .mc {
@@ -16,6 +16,10 @@
 .mini-curso .foto {
 	border: 8px solid #333;
 	width: 150px;
+}
+.mini-curso .foto img {
+	width: 150px;
+	height: 150px;
 }
 .mini-curso .data {
 	width: 40px;
