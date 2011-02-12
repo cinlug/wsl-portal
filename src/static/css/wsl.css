@@ -1,32 +1,87 @@
+body {
+	background: url(/static/img/wood.jpg) top repeat-y;
+}
 #wsl {
-	font-family:arial;
+	font-family:"Trebuchet MS", arial;
+	color: white;
 	width: 960px;
 	margin: 0px auto;
 }
-.mini-curso {
-	width: 800px;
-	height: 250px;
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+#title {
+	text-indent: -5000px;
+	height: 50px;
+	width: 450px;
 	margin: 0px auto;
+	margin-top: 30px;
+	background: url(/static/img/txt-wsl.png) center no-repeat;
 }
-.mini-curso .foto, .mini-curso .data, .mini-curso .mc {
-	float: left;
-	margin: 5px;
-	height: 150px;
+#horarios {
+	margin-top: 30px;
+	height: 100px;
 }
-.mini-curso .foto {
-	border: 8px solid #333;
-	width: 150px;
+#horarios table{
+	width: 924px;
 }
-.mini-curso .foto img {
-	width: 150px;
-	height: 150px;
+#horarios td {
+	text-align: center;
+	width: 80px;
 }
-.mini-curso .data {
-	width: 40px;
+#hr-horarios {
+	background: url(/static/img/txt-horarios.png) no-repeat right;
+	text-indent: -5000px;
 }
-.mini-curso .dia {
-	font-size: 27px;
+.hr-curso, .hr-palestrante{
+	margin: 8px 0px;
+	text-align: right;
 }
-.mini-curso .mc {
-	width: 540px;
+.hr-curso a {
+	background: #67917a;
+	font-size: 14px;
+	padding: 1px 5px;
+}
+.hr-palestrante a {
+	background: #B8AF03;
+	font-size: 12px;
+	padding: 1px 4px;
+}
+.data-03-21, .data-03-22, .data-03-23, .data-03-24, .data-03-25, .data-03-28, .data-03-29, .data-03-30, .data-03-31, .data-04-01 {
+	width: 65px;
+	height: 30px;
+	text-indent: -5000px;
+}
+.data-03-21 {background: url(/static/img/txt-21.03.png) center no-repeat; }
+.data-03-22 {background: url(/static/img/txt-22.03.png) center no-repeat; }
+.data-03-23 {background: url(/static/img/txt-23.03.png) center no-repeat; }
+.data-03-24 {background: url(/static/img/txt-24.03.png) center no-repeat; }
+.data-03-25 {background: url(/static/img/txt-25.03.png) center no-repeat; }
+.data-03-28 {background: url(/static/img/txt-28.03.png) center no-repeat; }
+.data-03-29 {background: url(/static/img/txt-29.03.png) center no-repeat; }
+.data-03-30 {background: url(/static/img/txt-30.03.png) center no-repeat; }
+.data-03-31 {background: url(/static/img/txt-31.03.png) center no-repeat; }
+.data-04-01 {background: url(/static/img/txt-01.04.png) center no-repeat; }
+
+#content-box {
+	width: 960px;
+	height: 440px;
+	background: url(/static/img/bg-conteudo.png) center no-repeat;
+	margin: 0px auto;
+	padding-top:22px;
+}
+#content {
+	width: 900px;
+	height: 417px;
+	margin: 0px auto;
+	overflow: auto;
+}
+#content .txt-box {
+	color: black;
+	margin: 20px;
+	text-indent: 10px;
 }

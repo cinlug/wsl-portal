@@ -1,29 +1,9 @@
 {% extends "esqueleto.html" %}
 
 {% block content %}
-	{% for mc in minicursos %}
-	<div class="mini-curso">
-		<div class="foto">
-			<img src="{{mc.foto}}" />
-		</div>
-		<div class="data">
-			<p class="dia"> {{mc.dia}} </p>
-			<p class="mes"> {{mc.mes}} </p>
-		</div>
-		<div class="mc">
-			<h2>{{mc.titulo}}</h2>
-			<p class="mc-descricao">
-				{{mc.descricao}}
-			</p>
-			<p class="mc-palestrante">
-				Palestrante(s): {{mc.palestrantes}}
-			</p>
-		</div>
-		<div class="mc-btn">
-			<div class="inscritos"> inscritos </div>
-			<div class="inscritos"> comentar </div>
-			<div class="inscritos"> EU VOU! </div>
-		</div>
+	<div class="txt-box">
+		<h1>#WSL</h1>
+		<p>o portal do II Workshop de Software Livre ainda está em construção. </p>
+		<p>para acompanhar as novidades do evento, siga do twitter do CInLUG (@cinlug) ou assine a lista de discussão no google groups.</p>
 	</div>
-	{% endfor %}
 {% endblock %}
