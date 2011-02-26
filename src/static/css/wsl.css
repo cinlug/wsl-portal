@@ -92,3 +92,36 @@ a:hover {
 #content .txt-box h1 {
 	font-size: 24px;
 }
+#footer {
+	width:100%;
+	clear: both;
+}
+#footer li {
+	display: inline;
+}
+#footer-menu div{
+	float: left;
+}
+#footer-menu{
+	float:right;
+	margin-right:35px;
+}
+.foo-contato, .foo-patrocinadores, .foo-organizadores {
+	text-indent: -5000px;
+	margin: 3px;
+	height: 23px;
+}
+.foo-contato {
+	background: url(/static/img/btn-contato.png) no-repeat center;
+	width: 69px;
+}
+.foo-patrocinadores {
+	background: url(/static/img/btn-patrocinadores.png) no-repeat center;
+	width: 121px;
+}
+.foo-organizadores {
+	background: url(/static/img/btn-organizadores.png) no-repeat center;
+	width: 115px;
+}
+
+
