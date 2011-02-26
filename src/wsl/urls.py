@@ -7,7 +7,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
     # Example:
     # (r'^wsl/', include('wsl.foo.urls')),
-    (r'^$', 'wsl.home.views.index'),
+    (r'^$', 'wsl.programacao.views.index'),
     (r'^minicurso/(?P<mc>.*)$', 'wsl.programacao.views.minicurso'),
     (r'^palestrante/(?P<palestrante>.*)$', 'wsl.programacao.views.palestrante'),
 	(r'^programacao/', include('wsl.programacao.urls')),
