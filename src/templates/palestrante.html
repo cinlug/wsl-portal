@@ -1,0 +1,10 @@
+{% extends "esqueleto.html" %}
+
+{% block content %}
+	<div class="txt-box">
+		<h1>{{palestrante.nome}}</h1>
+		<img src="{{palestrante.foto}}" />
+		<p>Sobre: {{palestrante.sobre}}</p>
+		<a href="{{palestrante.twitter}}">Twitter</a>
+	</div>
+{% endblock %}

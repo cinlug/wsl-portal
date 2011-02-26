@@ -5,6 +5,7 @@ body {
 	font-family:"Trebuchet MS", arial;
 	color: white;
 	width: 960px;
+	height: 765px;
 	margin: 0px auto;
 }
 a {
@@ -27,13 +28,17 @@ a:hover {
 	height: 100px;
 }
 #horarios table{
-	width: 924px;
+	float:left;
+	width: 840px;
 }
 #horarios td {
 	text-align: center;
 	width: 80px;
 }
 #hr-horarios {
+	float:left;
+	margin-top:35px;
+	width: 80px;
 	background: url(/static/img/txt-horarios.png) no-repeat right;
 	text-indent: -5000px;
 }
@@ -83,5 +88,7 @@ a:hover {
 #content .txt-box {
 	color: black;
 	margin: 20px;
-	text-indent: 10px;
+}
+#content .txt-box h1 {
+	font-size: 24px;
 }
