@@ -1,4 +1,4 @@
-from programacao.models import *
+from wsl.programacao.models import *
 from django.contrib import admin
 
 admin.site.register(Palestrante)
