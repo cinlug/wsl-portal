@@ -1,6 +1,6 @@
 # Django settings for wsl project.
 
-WSL_SRC_ROOT = '/Users/adrianomelo/git/wsl-portal/src/'
+WSL_SRC_ROOT = '/Users/adrianomelo/git/wsl/src/'
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG

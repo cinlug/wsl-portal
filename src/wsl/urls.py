@@ -7,11 +7,11 @@ admin.autodiscover()
 urlpatterns = patterns('',
     # Example:
     # (r'^wsl/', include('wsl.foo.urls')),
-    (r'^$', 'wsl.programacao.views.index'),
+    (r'^$', 'wsl.pagina.views.index'),
     (r'^minicurso/(?P<mc>.*)$', 'wsl.programacao.views.minicurso'),
     (r'^palestrante/(?P<palestrante>.*)$', 'wsl.programacao.views.palestrante'),
 	(r'^programacao/', include('wsl.programacao.urls')),
-	(r'^pagina/(?P<url>[a-z-]*)', 'wsl.pagina.views.index'),
+	(r'^pagina/(?P<url>[a-z-]*)', 'wsl.pagina.views.pagina'),
 	(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.WSL_SRC_ROOT + "static"}),
 
     # Uncomment the admin/doc line below and add 'django.contrib.admindocs' 

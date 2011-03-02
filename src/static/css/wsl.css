@@ -86,8 +86,9 @@ a:hover {
 	overflow: auto;
 }
 #content .txt-box {
-	color: black;
 	margin: 20px;
+	color: #fff;
+	font-weight:lighter;
 }
 #content .txt-box h1 {
 	font-size: 24px;
