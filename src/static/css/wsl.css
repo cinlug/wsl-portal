@@ -93,6 +93,9 @@ a:hover {
 #content .txt-box h1 {
 	font-size: 24px;
 }
+#content .txt-box h2 {
+	font-size: 18px;
+}
 #footer {
 	width:100%;
 	clear: both;
