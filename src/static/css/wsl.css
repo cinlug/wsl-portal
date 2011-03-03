@@ -73,7 +73,7 @@ a:hover {
 .data-04-01 {background: url(/static/img/txt-01.04.png) center no-repeat; }
 
 #content-box {
-	width: 960px;
+	width: 970px;
 	height: 440px;
 	background: url(/static/img/bg-conteudo.png) center no-repeat;
 	margin: 0px auto;
@@ -124,5 +124,30 @@ a:hover {
 	background: url(/static/img/btn-organizadores.png) no-repeat center;
 	width: 115px;
 }
-
+#social-media {
+	float:left;
+	margin-left: 35px;
+}
+.sm-icon{
+	width: 34px;
+	height: 32px;
+	float:left;
+	margin-right: 5px;
+}
+#menu-esquerdo {
+	width:23px;
+	float:left;
+}
+#me-minicursos {
+	text-indent: -5000px;
+	width:23px;
+	height:101px;
+	background: url(/static/img/btn-mini-cursos.png) no-repeat right;
+}
+#me-palestras{
+	text-indent: -5000px;
+	width:23px;
+	height:84px;
+	background: url(/static/img/btn-palestras.png) no-repeat right;
+}
 
