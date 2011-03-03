@@ -11,7 +11,10 @@
 		<div id="box-palestrantes">
 		{% for palestrante in palestrantes %}
 			<div class="box-palestrante">
-				<h1>{{palestrante.nome}}</h1>
+				<h1>{{palestrante.nome}}
+				{% ifnotequal palestrante.twitter "#" %}
+					- <a href="http://twitter.com/{{palestrante.twitter}}">@{{palestrante.twitter}}</a>
+				{% endifnotequal %}</h1>
 				<p>Sobre: {{palestrante.sobre}}</p>
 			</div>
 		{% endfor %}
