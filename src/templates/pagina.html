@@ -7,7 +7,9 @@
 		<h1>{{pagina.titulo}}</h1>
 		<br />
 		<div class="txt-pagina">
+		{% autoescape off %}
 		{{pagina.conteudo|linebreaksbr|urlize}}
+		{% endautoescape %}
 		</div>
 	</div>
 {% endblock %}
