@@ -1,24 +1,28 @@
 {% extends "esqueleto.html" %}
 
 {% block content %}
+	{% autoescape off %}
 	<div class="txt-box">
 		<h1>{{mc.titulo}}</h1>
 		<p>Data: {{mc.data|date:"d/m/Y"}}</p>
 		<p>Horário: {{mc.hora_inicio|time:"H:i"}} às {{mc.hora_fim|time:"H:i"}}</p>
 		<p>Localização: Centro de Informática (UFPE). Laboratório de graduaçao G4.</p>
 		<br />
-		<p>Descrição: {{mc.descricao|linebreaksbr}}</p>
+		<p>Descrição:
+			{{mc.descricao|linebreaksbr}}
 		<br />
 		<div id="box-palestrantes">
 		{% for palestrante in palestrantes %}
+			<br />
 			<div class="box-palestrante">
 				<h1>{{palestrante.nome}}
 				{% ifnotequal palestrante.twitter "#" %}
 					- <a href="http://twitter.com/{{palestrante.twitter}}">@{{palestrante.twitter}}</a>
 				{% endifnotequal %}</h1>
-				<p>Sobre: {{palestrante.sobre}}</p>
+				<p>{{palestrante.sobre}}</p>
 			</div>
 		{% endfor %}
 		</div>
 	</div>
+	{% endautoescape %}</p>
 {% endblock %}

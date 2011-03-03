@@ -1,5 +1,5 @@
 body {
-	background: url(/static/img/wood.jpg) top repeat-y;
+	background: url(/static/img/wood.jpg) top repeat #000;
 }
 #wsl {
 	font-family:"Trebuchet MS", arial;
