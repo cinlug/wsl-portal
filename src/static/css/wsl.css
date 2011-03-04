@@ -25,7 +25,7 @@ a:hover {
 }
 #horarios {
 	margin-top: 30px;
-	height: 100px;
+	height: 110px;
 }
 #horarios table{
 	float:left;
@@ -34,6 +34,7 @@ a:hover {
 #horarios td {
 	text-align: center;
 	width: 80px;
+
 }
 #hr-horarios {
 	float:left;
@@ -43,13 +44,17 @@ a:hover {
 	text-indent: -5000px;
 }
 .hr-curso, .hr-palestrante{
-	margin: 8px 0px;
+	margin: 6px 0px;
 	text-align: right;
 }
-.hr-curso a {
+.hr-blender {
+	margin:7px 0px 0px;
+	text-align:right;
+}
+.hr-curso a, .hr-blender a {
 	background: #67917a;
 	font-size: 14px;
-	padding: 1px 5px;
+	padding: 0px 5px;
 }
 .hr-palestrante a {
 	background: #B8AF03;
